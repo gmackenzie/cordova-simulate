@@ -68,7 +68,7 @@ var closeServer = function () {
 };
 
 var launchBrowser = function (target, url) {
-    return cordovaServe.launchBrowser({ target: target, url: url });
+    // return cordovaServe.launchBrowser({ target: target, url: url });
 };
 
 var simulate = function (opts) {
